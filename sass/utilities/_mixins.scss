@@ -1,0 +1,13 @@
+@mixin text(
+  $color,
+  $size: 16px,
+  $weight: 400,
+  $height: 28px,
+  $family: "Roboto Slab"
+) {
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $height;
+  font-family: $family;
+  color: $color;
+}
